@@ -1,18 +1,23 @@
-title : Jan Zheng Portfolio
+title : Mark Goldman Portfolio
 tagline: Site Tagline
 author :
-  name : Jan Zheng
-  email : contact@janzheng.com
-  github : janzheng
+  name : Mark Goldman
+  email : mark-website@mit.edu
+  github : goldmanm
   twitter : janistanian
-  linkedin : www.linkedin.com/in/janzh # this probably needs to be configured somewhere
+  linkedin : www.linkedin.com/in/mjgoldman # this probably needs to be configured somewhere
 
 
 markdown: rdiscount
 highlighter: pygments
 permalink: /blog/:year/:month/:title.html
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.txt"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.md"]
 
+rdiscount:
+  extensions:
+    - footnotes
+    - autolink
+    - smart
 
 navigation:
  - text: thoughts

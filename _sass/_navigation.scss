@@ -43,8 +43,8 @@
 		@extend %ease;
 
 		span {@extend %helvetica; color: $red; }
-      .nav__j { font-weight: 400; letter-spacing:-2px }
-      .nav__z { font-weight: 300; letter-spacing:-1px; }
+      .nav__first { font-weight: 400; letter-spacing:-2px }
+      .nav__last { font-weight: 300; letter-spacing:-1px; }
 
 		@include media($break-nav-mobile) {
 			font-size: $base*3/2;

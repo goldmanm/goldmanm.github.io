@@ -57,6 +57,16 @@
 	}
 }
 
+.icon--github {
+	background-image: icon('github', $color--base);
+	
+	&:before { // hover state
+		@extend .icon--hoverOff;
+		@extend .icon--small;
+		background-image: icon('github', $gray);
+	}
+}
+
 .icon--twitter {
 	background-image: icon('twitter', $color--base);
 	

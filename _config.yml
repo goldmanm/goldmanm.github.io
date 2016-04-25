@@ -2,14 +2,13 @@ title : Mark Goldman Portfolio
 tagline: Site Tagline
 author :
   name : Mark Goldman
-  email : mark-website@mit.edu
+  email : markgoldman@mit.edu
   github : goldmanm
-  twitter : janistanian
   linkedin : www.linkedin.com/in/mjgoldman # this probably needs to be configured somewhere
 
 
 markdown: rdiscount
-highlighter: pygments
+highlighter: rb-pygments
 permalink: /blog/:year/:month/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.md"]
 
@@ -23,7 +22,7 @@ navigation:
  - text: thoughts
    url: /
  - text: about
-   url: /about.html
+   url: /about/
  - text: tools
    url: /toolbox.html
 

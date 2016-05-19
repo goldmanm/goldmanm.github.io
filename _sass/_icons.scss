@@ -125,29 +125,29 @@
 }
 
 .icon--lab {
-	background-image: icon('lab', $white);
+	background-image: icon('beaker', $white, 'viewBox="50 50 412 412"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('lab', $white);
+		background-image: icon('beaker', $white, 'viewBox="50 50 412 412"');
 	}
 }
 
-.icon--rant {
-	background-image: icon('rant', $white);
+.icon--insight {
+	background-image: icon('light', $white, 'viewBox="50 50 412 412"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('rant', $white);
+		background-image: icon('light', $white, 'viewBox="50 50 412 412"');
 	}
 }
 
-.icon--idea {
-	background-image: icon('idea', $white, 'width="612" height="632" viewBox="0 0 612 792"');
+.icon--pursuits {
+	background-image: icon('runner', $white, 'viewBox="50 50 412 412"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('idea', $white);
+		background-image: icon('runner', $white, 'viewBox="50 50 412 412"');
 	}
 }
 
@@ -160,15 +160,12 @@
 	}
 }
 
-.icon--tumblr {
-	background-image: icon('rant', $white);
+.icon--guides {
+	background-image: icon('book', $white, 'viewBox="50 50 412 412"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('rant', $white);
+		background-image: icon('book', $white, 'viewBox="50 50 412 412"');
 	}
 }
-
-
-
 

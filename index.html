@@ -52,9 +52,9 @@ featured : false
 
       <div class="postList__filter">
         <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="lab"><span class="icon icon--filter icon--lab"></span><span class="filter-btn--title">lab</span></div>
-        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="rant"><span class="icon icon--filter icon--rant"></span><span class="filter-btn--title">rants</span></div>
-        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="idea"><span class="icon icon--filter icon--idea"></span><span class="filter-btn--title">ideas</span></div>
-        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="tumblr"><span class="icon icon--filter icon--tumblr"></span><span class="filter-btn--title">tumblr</span></div>
+        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="insight"><span class="icon icon--filter icon--insight"></span><span class="filter-btn--title">insight</span></div>
+        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="pursuits"><span class="icon icon--filter icon--pursuits"></span><span class="filter-btn--title">pursuits</span></div>
+        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="guides"><span class="icon icon--filter icon--guides"></span><span class="filter-btn--title">guides</span></div>
         <!-- <div class="filter-btn" class="btn-inline" data-filter="work"><span class="icon icon--filter icon--work"></div> -->
       </div>
     </span>
@@ -85,16 +85,16 @@ featured : false
                     <span class="icon icon--filter icon--lab"></span>
                   {% endif %}
 
-                  {% if post.category == 'idea' %}
-                    <span class="icon icon--filter icon--idea"></span>
+                  {% if post.category == 'insight' %}
+                    <span class="icon icon--filter icon--insight"></span>
                   {% endif %}
 
-                  {% if post.category == 'rant' %}
-                    <span class="icon icon--filter icon--rant"></span>
+                  {% if post.category == 'pursuits' %}
+                    <span class="icon icon--filter icon--pursuits"></span>
                   {% endif %}
 
-                  {% if post.category == 'work' %}
-                    <span class="icon icon--filter icon--work"></span>
+                  {% if post.category == 'guides' %}
+                    <span class="icon icon--filter icon--guides"></span>
                   {% endif %}
 
                 </div>

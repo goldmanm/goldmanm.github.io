@@ -125,24 +125,24 @@
 }
 
 .icon--lab {
-	background-image: icon('beaker', $white, 'viewBox="50 50 412 412"');
+	background-image: icon('beaker', $white, 'viewBox="0 0 512 512"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('beaker', $white, 'viewBox="50 50 412 412"');
+		background-image: icon('beaker', $white, 'viewBox="0 0 512 512"');
 	}
 }
 
 .icon--insight {
-	background-image: icon('light', $white, 'viewBox="50 50 412 412"');
+	background-image: icon('light', $white, 'viewBox="0 0 512 512"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('light', $white, 'viewBox="50 50 412 412"');
+		background-image: icon('light', $white, 'viewBox="0 0 512 512"');
 	}
 }
 
-.icon--pursuits {
+.icon--pursuit {
 	background-image: icon('runner', $white, 'viewBox="50 50 412 412"');
 	
 	&:before { // hover state
@@ -160,12 +160,12 @@
 	}
 }
 
-.icon--guides {
-	background-image: icon('book', $white, 'viewBox="50 50 412 412"');
+.icon--guide {
+	background-image: icon('book', $white, 'viewBox="0 0 512 512"');
 	
 	&:before { // hover state
 		@extend .icon--hoverOff;
-		background-image: icon('book', $white, 'viewBox="50 50 412 412"');
+		background-image: icon('book', $white, 'viewBox="0 0 512 512"');
 	}
 }
 

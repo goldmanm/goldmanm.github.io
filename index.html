@@ -53,8 +53,8 @@ featured : false
       <div class="postList__filter">
         <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="lab"><span class="icon icon--filter icon--lab"></span><span class="filter-btn--title">lab</span></div>
         <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="insight"><span class="icon icon--filter icon--insight"></span><span class="filter-btn--title">insight</span></div>
-        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="pursuits"><span class="icon icon--filter icon--pursuits"></span><span class="filter-btn--title">pursuits</span></div>
-        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="guides"><span class="icon icon--filter icon--guides"></span><span class="filter-btn--title">guides</span></div>
+        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="pursuit"><span class="icon icon--filter icon--pursuit"></span><span class="filter-btn--title">pursuit</span></div>
+        <div class="filter-btn filter-btn--large" class="btn-inline" data-filter="guide"><span class="icon icon--filter icon--guide"></span><span class="filter-btn--title">guide</span></div>
         <!-- <div class="filter-btn" class="btn-inline" data-filter="work"><span class="icon icon--filter icon--work"></div> -->
       </div>
     </span>
@@ -89,12 +89,12 @@ featured : false
                     <span class="icon icon--filter icon--insight"></span>
                   {% endif %}
 
-                  {% if post.category == 'pursuits' %}
-                    <span class="icon icon--filter icon--pursuits"></span>
+                  {% if post.category == 'pursuit' %}
+                    <span class="icon icon--filter icon--pursuit"></span>
                   {% endif %}
 
-                  {% if post.category == 'guides' %}
-                    <span class="icon icon--filter icon--guides"></span>
+                  {% if post.category == 'guide' %}
+                    <span class="icon icon--filter icon--guide"></span>
                   {% endif %}
 
                 </div>

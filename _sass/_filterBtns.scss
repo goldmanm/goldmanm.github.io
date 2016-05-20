@@ -15,9 +15,9 @@
   @extend %ease;
   &[data-filter="lab"] {background-color: rgba($teal, 0.2); &:hover,&.filter-btn--active {background-color: rgba($teal, 0.9); .filter-btn--title { opacity: 1 } }}
   &[data-filter="insight"] {background-color: rgba($green, 0.2); &:hover,&.filter-btn--active {background-color: rgba($green, 0.9); .filter-btn--title { opacity: 1 } }}
-  &[data-filter="pursuits"] {background-color: rgba($dark-orange, 0.2); &:hover,&.filter-btn--active {background-color: rgba($dark-orange, 0.9); .filter-btn--title { opacity: 1 } }}
+  &[data-filter="pursuit"] {background-color: rgba($dark-orange, 0.2); &:hover,&.filter-btn--active {background-color: rgba($dark-orange, 0.9); .filter-btn--title { opacity: 1 } }}
   &[data-filter="work"] {background-color: rgba($purple, 0.2); &:hover,&.filter-btn--active {background-color: rgba($purple, 0.9); .filter-btn--title { opacity: 1 } }}
-  &[data-filter="guides"] {background-color: rgba($blue, 0.2); &:hover,&.filter-btn--active {background-color: rgba($blue, 0.9); .filter-btn--title { opacity: 1 } }}
+  &[data-filter="guide"] {background-color: rgba($blue, 0.2); &:hover,&.filter-btn--active {background-color: rgba($blue, 0.9); .filter-btn--title { opacity: 1 } }}
 }
 
 .filter-btn--title {

@@ -1,25 +1,6 @@
 ---
-layout: page
-title: About
-permalink: /about/
----
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-here is the about textile page from janzheng's site
-
----
 layout: layout-shell
-title: Hello there
+title: 
 source: /app/posts/about
 <!-- preview-img : /app/posts/nanowrito/preview.png -->
 
@@ -38,20 +19,18 @@ h1(h1--display). Hello,
 h4(aboutQuote). stay a while, and listen
 </div>
 
-p(dropcap). My name is Jan <span class='style--light'>"yawn"</span>, and I strive to create immersive, memorable, and delightful experiences. My user-centered design approach aims to strike a balance between user needs and business goals. My projects usually focus on iterative design, prototypes, and testing, including _online communities_ and _responsive websites_. I strive for my work to be immersive, elegant, and memorable. 
+Most people call me Mark, but for some reason it's commonly confused with Mike, and I sometimes get tired of correcting them. My passions include solving complex technical problems facing our world like mitigating risks associated with climate change or developing viable alternatives to fossil fuels. After hours, I work on projects that expand my skills and help me further explore the complexities of our world. I find understanding a diversity of viewpoints critical to understanding our world and excel at making lasting friendships wherever I've worked. In addition, I strive to improve the operational structure to better align with organization goals. My projects, observations, and helpful guides can be found in my [resume]() and in the posts on this website.
 
-<notextile>
-  <a href="/resume.pdf" class="link-external"><div class="btn-icon btn-inline btn-inline--large"><span class="icon icon--btn icon--resume"></span>Grab my résumé</div></a>
-</notextile>
+I was born in along the Texas/Mexico border, where most of my family currently lives. At the age of 2, I moved to the most diverse [county]() in the US, near Houston. The next 16 years I observed and was impacted by cultural differences, micro-biases, and privilege. By the time college ran around, I actively sought environments which encourage diversity. My youth in the American suburbs with numerous outdoor activities like camping brought forth ideas of sustainability. I experimented with challenges like not using private motor-vehicles, ran sustainability events..
 
 
-bq(blockquote--wide blockquote--noQuotes). I am currently at "Ubiquiti Networks":http://www.ubnt.com, in *(strong--loud)Atlanta*.
-I am *(strong--loud)not available* for work. "Say hello anyway":mailto:hello@janzheng.com, "tweet":https://twitter.com/janistanian, or "link me in":http://www.linkedin.com/in/janzh.
+I currently am a doctoral candidate at Massachusetts Institute of Technology (MIT) getting a degree in chemical engineering. I work on utilizing computational and experimental techniques to understand organic compounds burn in engines and transform into particles in the atmosphere. I work in two research groups on [combustion kinetics]() and [atmospheric chemistry](). 
 
-h2. Work & Experience 
+I plan to graduate in 2019-2020 and have currently not committed to employment afterwards, so ["Say hello"](mailto:markgoldman@mit.edu) or [link me in](http://www.linkedin.com/in/mjgoldman).
 
-I've had the luxury of working with some amazing companies and clients, including *(strong--loud)Coca-Cola*, *(strong--loud)L'Oreal / Garnier*, *(strong--loud)Verizon Wireless*, *(strong--loud)Home Depot*, *(strong--loud)Nespresso*, and *(strong--loud)Cartoon Network*. I have also seen the client-side at *(strong--loud)Microsoft*, *(strong--loud)Lockheed Martin*, *(strong--loud)Arbitron*, and a few smaller firms and startups. 
+## Work & Experience 
 
+So far my experiences have mostly focused around concepts of sustainability in research, industry, and service. I have worked in Texas, Tennessee, Massachusetts, Singapore and Dubai. I started from the fast-food industry in high school, and moved to an oil refinery and national energy lab during undergrad. In grad school I've worked at an aluminum refinery and a US regulatory agency in grad school. It's a mouthful, so use the tabs below to explore or download my [resume]() to digest on the subway/bus home.
 
 
 <notextile>
@@ -335,29 +314,15 @@ I've had the luxury of working with some amazing companies and clients, includin
 
 </notextile>
 
+## About This Site
 
+This site design was originally created by [Jan Zheng](janzheng.com) using [Jekyll](https://github.com/mojombo/jekyll) with the original code available [here](https://github.com/janzheng/janzheng.github.com). He utilized [bourbon.io](http://bourbon.io/) and [Neat](neat.bourbon.io) for front-end styling in SASS. I modified his template to add blog post categories, changed links, etc. to better share me with you.
 
-h2. tl;dr
+The site's formatting that I've worked on is released with an [MIT license]() with the site's content (blog posts, resume, etc.) released with a [Creative Commons NC A license](). Complete licence info is available [here]().
 
-I've always had a fascination with learning, doing, and experimenting, and my experiences span across psychology, user research, design, and coding. I frequently use Sketch, Axure, Adobe, and other design and productivity tools. After quickly defining an approach, I prefer to create tangible examples by prototyping them in HTML, JavaScript and SASS/CSS. I am also familiar with anything from C to Processing.
-
-My eclectic background mirrors my eclectic upbringing. Though born in China, I moved to Stockholm at a young age. I am fluent in English and Swedish, and am conversational in Mandarin.
-
-I hold dual citizenship with both the United States and Sweden, which means that I could easily work in and out of the U.S. and countries within the European Union.
-
-On my off days, I enjoy swing dancing, circusing, rock climbing, playing indie games, and cooking / stuffing my face with tasty foods.
-
-h2. About This Site
-
-For the second round of redesign, I wanted to reduce the number of artifacts on the page, like shapes and outlines, and take a more typographic, minimalist approach. Any shapes and lines are only used to accentuate the information I'm presenting, with enough white space to prevent clutter.
-
-This site is now my umpteen+1th portfolio design, but every iteration has seen improvement. The site is built on the static site generator "Jekyll":https://github.com/mojombo/jekyll and is hosted completely for free on "Github Pages":https://github.com/janzheng/janzheng.github.com.
-
-The front-end styling was written in SASS, with the help of "bourbon.io":http://bourbon.io/ and "Neat":neat.bourbon.io.
-
-Icons are sourced from "IconMonstr":http://iconmonstr.com/ and <a href="http://www.flaticon.com" title="Flaticon">Flaticon.com</a>
+Icons are sourced from [IconMonstr](http://iconmonstr.com/) and [Flaticon](http://www.flaticon.com) and [Wikimedia](http://www.wikimedia.com). 
 
 Cheers, 
-Jan
+Mark
 
 

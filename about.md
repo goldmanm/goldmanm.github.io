@@ -29,7 +29,7 @@ source: /app/posts/about
 
 <div class="about--intro">
 <figure class="figure-circle">
-!{{page.source}}/teal_tie_sm.png!
+!{{page.source}}/face.png!
 <!-- <figcaption class="aboutQuote">day at the office</figcaption> -->
 </figure>
 

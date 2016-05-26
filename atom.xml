@@ -3,11 +3,11 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Jan Zheng</title>
-    <link href="http://janzheng.com/atom.xml" rel="self"/>
-    <link href="http://janzheng.com/"/>
+    <title>Mark Goldman</title>
+    <link href="http://goldmanm.github.io/atom.xml" rel="self"/>
+    <link href="http://goldmanm.github.io/"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://janzheng.com/</id>
+    <id>http://goldmanm.github.io/</id>
     
     {% for post in site.posts %}
     <entry>
@@ -17,8 +17,8 @@
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <summary>{{ post.summary }}</summary>
         <author>
-            <name>Jan Zheng</name>
-            <uri>http://janzheng.com/</uri>
+            <name>Mark Goldman</name>
+            <uri>http://goldmanm.github.io</uri>
         </author>
     </entry>
     {% endfor %}

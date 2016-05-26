@@ -2,8 +2,6 @@
 layout: layout-shell
 title: 
 source: /app/posts/about
-<!-- preview-img : /app/posts/nanowrito/preview.png -->
-
 ---
 
 <!-- use that new container vertical center code you found! -->
@@ -14,9 +12,9 @@ source: /app/posts/about
 <!-- <figcaption class="aboutQuote">day at the office</figcaption> -->
 </figure>
 
-h1(h1--display). Hello,
+# Hello,
 
-h4(aboutQuote). stay a while, and listen
+#### want to hear a story?
 </div>
 
 Most people call me Mark, but for some reason it's commonly confused with Mike, and I sometimes get tired of correcting them. My passions include solving complex technical problems facing our world like mitigating risks associated with climate change or developing viable alternatives to fossil fuels. After hours, I work on projects that expand my skills and help me further explore the complexities of our world. I find understanding a diversity of viewpoints critical to understanding our world and excel at making lasting friendships wherever I've worked. In addition, I strive to improve the operational structure to better align with organization goals. My projects, observations, and helpful guides can be found in my [resume]() and in the posts on this website.

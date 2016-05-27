@@ -43,11 +43,11 @@
    -->
   <div class="nav">
 
-    <!-- JZ logo -->
+    <!-- name logo -->
     <div class="nav__logo">
       <a class="nav__logo__link" href="/">
         <div class="nav__logo__content ">
-          <span class="nav__first">mark </span><span class="nav__last">g</span>
+          <span class="nav__first">mark </span><span class="nav__last">goldman</span>
         </div>
       </a>
     </div>
@@ -59,7 +59,7 @@
       <!-- generate links and mark nav as active -->
       {% for item in navlist %}
       
-        {% if item.text == 'thoughts' || item.text == 'rants' %}
+        {% if item.text == 'thoughts' || item.text == 'lab' || item.text == 'pursuit' || item.text == 'insight' || item.text == 'guide' %}
 
         <a href="{{item.url}}">
           <div class="nav__item nav__blog 
@@ -108,7 +108,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/goldmanm">
+      <a target="_blank" href="https://github.com/goldmanm">
         <div class="nav__social__item nav__social_github">
           <span class="icon icon--small icon--github"></span>
           <div class="nav__social__label"><span>code</span></div>
@@ -116,7 +116,7 @@
       </a>
 
 
-      <a href="http://www.linkedin.com/in/mjgoldman">
+      <a target="_blank" href="http://www.linkedin.com/in/mjgoldman">
         <div class="nav__social__item nav__social__linkedin">
           <span class="icon icon--small icon--linkedin"></span>
           <div class="nav__social__label"><span>link me</span></div>
@@ -146,7 +146,7 @@
     </div>
 
     <div class="main__footer">
-        &copy; 2015 – Built on <a href="https://github.com/janzheng/janzheng.github.com">Github</a> &amp; <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+        &copy; 2015-2016 – Built on <a href="https://github.com/janzheng/janzheng.github.com">Github</a> &amp; <a href="https://github.com/mojombo/jekyll">Jekyll</a>. see the <a href="{{ site.url }}/LICENSE.html">license</a>
     </div> 
     <!-- </div> -->
 

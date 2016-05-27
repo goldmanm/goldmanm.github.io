@@ -18,7 +18,7 @@ source: /app/posts/about
 <h3> want to hear a story? </h3>
 </div>
 
-Most people call me Mark, but for some reason it's commonly confused with Mike, and I sometimes get tired of correcting them. My passions include solving complex technical problems facing our world like mitigating risks associated with climate change or developing viable alternatives to fossil fuels. After hours, I work on projects that expand my skills and help me further explore the complexities of our world. I find understanding a diversity of viewpoints critical to understanding our world and excel at making lasting friendships wherever I've worked. In addition, I strive to improve the operational structure to better align with organization goals. My projects, observations, and helpful guides can be found in my [resume]() and in the posts on this website.
+Most people call me Mark, but for some reason people think I say that I'm Mike, and I sometimes get tired of correcting them. My passions include solving complex technical problems facing our world like mitigating risks associated with climate change or developing viable alternatives to fossil fuels. After hours, I work on projects that expand my skills and help me further explore the complexities of our world. I find understanding a diversity of viewpoints critical to understanding our world and excel at making lasting friendships wherever I've worked. In addition, I strive to improve the operational structure to better align with organization goals. My projects, observations, and helpful guides can be found in my [resume]() and in the posts on this website.
 
 I was born in along the Texas/Mexico border, where most of my family currently lives. At the age of 2, I moved to the most diverse [county]() in the US, near Houston. The next 16 years I observed and was impacted by cultural differences, micro-biases, and privilege. By the time college ran around, I actively sought environments which encourage diversity. My youth in the American suburbs with numerous outdoor activities like camping brought forth ideas of sustainability. I experimented with challenges like not using private motor-vehicles, ran sustainability events..
 
@@ -35,9 +35,7 @@ So far my experiences have mostly focused around concepts of sustainability in r
 
 This site design was originally created by [Jan Zheng](janzheng.com) using [Jekyll](https://github.com/mojombo/jekyll) with the original code available [here](https://github.com/janzheng/janzheng.github.com). He utilized [bourbon.io](http://bourbon.io/) and [Neat](neat.bourbon.io) for front-end styling in SASS. I modified his template to add blog post categories, changed links, etc. to better share me with you.
 
-The site's formatting that I've worked on is released with an [MIT license]() with the site's content (blog posts, resume, etc.) released with a [Creative Commons NC A license](). Complete licence info is available [here]().
-
-Icons are sourced from [IconMonstr](http://iconmonstr.com/) and [Flaticon](http://www.flaticon.com) and [Wikimedia](http://www.wikimedia.com). 
+Complete licence info is available [here]( {{site.url}}/license.html ). [Message me](mailto:markgoldman@mit.edu) if you would like to use posts for commercial usage or flatter me with your adaptions and repostings.
 
 Cheers, 
 Mark

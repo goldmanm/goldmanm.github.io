@@ -1,0 +1,111 @@
+# creating a personal website
+
+I decided to create a personal website, so I reserved a domain `goldman.mit.edu` with IS&T which came with a drupal site. Understanding the drupal interface was pretty difficult, especially for a personal, mostly static site. I decided to switch to using jekyll with github for ease of use. While looking at example files, I liked the flow of [Jan Zheng's site](janzheng.com), so I sent him a message asking if he'd put a license file on the site, which he did. I forked over his repo and edited the page, to what you see here.
+
+This post contains notes about how I set up the repository and site and stuff.
+
+In addition to the basic stuff: need to gym install rdiscount rb-pygments sass
+
+could not get textile to work fully, but converting files to markdown worked fine. Maybe want to switch things to markdown to make things standard.
+
+##how to serve website
+
+`jekyll serve`
+
+##how to change things in the website
+
+### replacing icon
+
+1. get a svg file from internet or make one with inkscape
+1. add the svg coordinates to `_sass/_icongenerator.scss`
+1. replace name of file
+	1. for icons in the tray, in `_layout/layout-site.html` replace or add the name of the icons.
+	2. for icons on the blog, no border is needed, but follow steps in the adding blog category
+1. add the new name of icons to `_sass/_icons.scss`
+1. if you add another color layer, which starts with `$name`, go to `_sass/_colors.scss` and add that style
+
+### adding-removing blog category
+
+1. ~include name of category in `_layouts/layout-post.html`
+1. if using a new icon, follow steps on replacing icon above including editing `_sass/_icons.scss`(determines size of icons), `_sass/_icongenerator.scss`
+1. edit `_sass/_article.scss` (not needed if not changing color layout)
+1. edit `_sass/_filterBtns.scss` to create the circle image desired, not sure if cvs or 
+1. edit `_sass/_homepage.scss` controls text of icons
+1. add file `_includes/<name>-svg.html`
+1. edit `index.html`
+
+(all these files were obtained with `grep -r idea .`) more changes may be necessary
+
+###using inkscape to modify svgs
+
+* to edit svg file effectively, click on the 'nodes' icon on the left. 
+* Most of the website uses filled svgs, so you may have to convert strokes to paths in the `path-> strokes to paths` 
+* you should scale it to 512 by 512 pix or whatever is mentioned in the viewBox in the `_icongenerator` file. 
+* in inkscape the canvas is expanded by File -> Document Properties (cntl + shift + D)
+* in inkscape the icon is expanded by object -> transform (cntl + shift + M)
+* if alignment is wrong, the inkscape object probably has a `transform` property enabled. You can disable it by ungrouping objects (cntl + shift + g) and checking the 'edit current matrix' option in object -> transform -> matrix.
+
+### finding files
+
+* appears that images and related files are in the `app` folder
+
+##things to understand
+
+* where is the `_includes` directory utilized.
+	* seems it could be in the about.textile file & other file
+* how to get background image on blog post page?
+* what does atom.xml do?
+
+
+* functionality of website
+	* what is the audience for the site: job recruiters, peer researchers, classmates, friends, family
+	* what information do I want to have: links to website, resume, brief bio, advice about grad school, programming advice, my projects, insights from workshops and talks
+	* how should I display the information: 
+		* resume
+		* about
+		* blog
+			* lab - beaker
+			* insight - light
+			* pursuits - runner (adobe 2.0 licence)
+			* guides - book (released to public domain by MTchemik)
+## to do			
+
+* remove old blog posts
+* edit and add blog posts
+* strip down other parts of website
+	* tools
+* add visual website timeline
+* fix the broken link to tools by adding a toolbox.html file (but it works on website)
+* write paper notes & introductions
+* talk with is&t/student website office about transfering goldman.mit.edu
+	* email accounts@mit.edu with name, website and URL redirect
+	* need to figure out if I can host outside of MIT or use other service
+	* ask connie about website redirect?
+* color of insight in overall logo and items is green and orange respectively. Should be fixed. 
+
+* resume
+* business card
+
+#### text from janzheng's old blog posts
+
+##### images with caption
+
+```
+<figure class="figure-wide">
+!{{page.source}}/realb2futuredate.jpg!
+<figcaption>Great Scott, we're in the future!</figcaption>
+</figure>
+
+```
+
+##### buttons on blog posts
+
+```
+<notextile>
+  <div class="article__linkBlock">
+    <a href="http://nanowrito.com" class="link-external">
+      <div class="btn-inline">Nanowrito.com</div>
+    </a>
+  </div>
+</notextile>
+```

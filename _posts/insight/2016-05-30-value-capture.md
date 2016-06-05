@@ -2,28 +2,11 @@
 layout: layout-post
 title: Value capture and incenstives
 summary: in business and academia
-<!-- source allows better relative reference linking using {{page.source}} to input it -->
 source: /app/posts/insight/value-capture
-preview-img : /app/posts/insight/value-capture/preview.png
-<!-- options are 
-post-preview-std post__imgPreview--cover, 
-post-preview-std post__imgPreview--light-->
+preview-img : /app/posts/insight/value-capture/preview.jpeg
 preview-css : post-preview-std post__imgPreview--light
-<!-- the links appear as a button at the top of the screen -->
-<!-- project-link : /app/posts/idea/xbox-voice-guide/XboxVoiceGuide.pdf
-project-link-desc : Download the Voice Guide
--->
-
-<!-- I can probably look at _layouts/layout-post.html to find out what these do -->
-
-<!-- external: # -->
-<!-- youtube: # -->
-<!-- vimeo: # -->
-
-<!-- categories: lab insight pursuit guide.-->
 category : insight
 tags : [MBA, business, computation, academia, value creation, value capture]
-
 published : true
 portfolio : false
 comments : false
@@ -31,7 +14,7 @@ featured : false
 type : blog
 ---
 
-This past semester, I took an MIT Sloan class called [Entrepreneurial Strategy](). Through each lecture, this course drove deeper into fundamental business decesions of a start-up. Being my first business course, unknown more-general business concepts flew around the class. I found two of these concepts mysteriously complex and also fundamental: value creation and value capture. In the class context, value creation is the benefit to people created by the business. Value capture is how a venture collects value from the environment in order to sustain and grow. For example, Facebook provides values to users by connecting them and to advertisers by allowing access to the users. Facebook captures value by charging the advertisers for access to the users. Essential to this course is alligning the value creation and value capture with other parts of your business to make a sucessful market entry.
+This past semester, I took an MIT Sloan class called [Entrepreneurial Strategy](http://student.mit.edu/catalog/search.cgi?search=15.911&style=verbatim&when=2&termleng=4). Through each lecture, this course drove deeper into fundamental business decesions of a start-up. Being my first business course, unknown more-general business concepts flew around the class. I found two of these concepts mysteriously complex and also fundamental: value creation and value capture. In the class context, value creation is the benefit to people created by the business. Value capture is how a venture collects value from the environment in order to sustain and grow. For example, Facebook provides values to users by connecting them and to advertisers by allowing access to the users. Facebook captures value by charging the advertisers for access to the users. Essential to this course is alligning the value creation and value capture with other parts of your business to make a sucessful market entry.
 
 ### when revinue undermines a business creating value
 
@@ -45,7 +28,7 @@ Like the investing world or the British East India Company, the value capture in
 
 ### academics face the same issues
 
-Personally, I've found subtler discrepencies between value creation and value capture more inhibiting in my field of computational chemical informatics. Many papers exist for new methods of analyzing complex chemical systems which never mention or share the code used for the analysis. [......] authors may see some benefit by hiding code to requiring others to rewrite the method, so they can publish more papers and stay ahead of other groups, though I do not think this is the reason for most papers. 
+Personally, I've found subtler discrepencies between value creation and value capture more inhibiting in my field of computational chemical informatics. Many papers exist for new methods of analyzing complex chemical systems which never mention or share the code used for the analysis. [......] authors may see some benefit by hiding code to requiring others to rewrite the method, so they can publish more papers and stay ahead of other groups, though I do not think this is the reason for most papers.
 
 Many researchers just have terribly messy code, which the authors struggle to use after the paper is published. I recently looked into someone's code for a method I was interested in. The author said there was a 'high learning curve'. The documentation was a 138 page file of method headers, which meant the code wasn't commented, and it seemed extremely messy. For another paper, my group member emailed the author of the paper and code, who recommened that he would probably rewrite the code entirely if he had to work on the project again. His goal was to publish papers and could deal with the messy code while it was fresh in his mind. In a meta-analysis, Prof. West found that only [---] percent of papers in the 2013 combustion institute had supplimental code to help others reproduce the work. 
 
@@ -71,3 +54,4 @@ write about KI encouraging reporting of environmental issues
 In Market-Based Management, Charles Koch asserts that the free-market incentives for companies can also be applied to people working in a company. While I am not convinced of all the assertions that lead to this conclusion, treating people like this 
 -->
 
+Note: the [photo of Sydney, AU](https://unsplash.com/photos/EOq4Dj33G_U) was taken by Seb Zurcher and is licensed under cc0

@@ -2,28 +2,11 @@
 layout: layout-post
 title:  sharing your travel journal as a gift
 summary: share your experience, not a keyring
-<!-- source allows better relative reference linking using {{page.source}} to input it -->
-source: /app/posts/pursuit/
-preview-img : /app/posts/idea/xbox-voice-guide/preview.png
-<!-- options are 
-post-preview-std post__imgPreview--cover, 
-post-preview-std post__imgPreview--light-->
+source: /app/posts/pursuit/travel-journal
+preview-img : /app/posts/pursuit/travel-journal/preview.jpg
 preview-css : post-preview-std post__imgPreview--light
-<!-- the links appear as a button at the top of the screen -->
-<!-- project-link : /app/posts/idea/xbox-voice-guide/XboxVoiceGuide.pdf
-project-link-desc : Download the Voice Guide
--->
-
-<!-- I can probably look at _layouts/layout-post.html to find out what these do -->
-
-<!-- external: # -->
-<!-- youtube: # -->
-<!-- vimeo: # -->
-
-<!-- categories: lab insight pursuit guide.-->
 category : pursuit
 tags : [travelling, journal, blog, gift, editing, macros]
-
 published : true
 portfolio : false
 comments : false
@@ -65,3 +48,5 @@ If you are travelling and want to return with a gift that provides deep meaning 
 * get your friends and family at home to nag you to finish when you get back.
 * consider the end use you'd like for the journal. It might be different than a diary. 
 * enjoy reflecting on your experiences during and after your trip.
+
+Note: the [preview image](http://digitalcollections.nypl.org/items/510d47db-b5dc-a3d9-e040-e00a18064a99) is by William Blake and is in the public domain

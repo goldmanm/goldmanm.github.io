@@ -1,10 +1,10 @@
 ---
 layout: layout-post
 title: Going Beyond Housemaster
-summary: Should MIT avoid colonial language in classes?
+summary: Should MIT avoid colonial terms in classes?
 source: /app/posts/insight/housemaster
 preview-img: /app/posts/insight/housemaster/preview.jpg
-preview-css : post-preview-std post__imgPreview--cover
+preview-css : post-preview-std post__imgPreview--light
 category : insight
 tags : [MIT, diversity, head of house, academic jargon, micro-agressions]
 published : true

@@ -70,13 +70,16 @@ could not get textile to work fully, but converting files to markdown worked fin
 			* guides - book (released to public domain by MTchemik)
 ## to do			
 
-* remove old blog posts
 * edit and add blog posts
+	* add richard west's results & find programming benefits for value capture post
 * strip down other parts of website
-	* tools
+	* tumblr data
+	* remove icon label from post design
+* fix header layout on mobile sites
+* add resume
 * add visual website timeline
+* move image citations to their own section in the formatting
 * fix the broken link to tools by adding a toolbox.html file (but it works on website)
-* write paper notes & introductions
 * talk with is&t/student website office about transfering goldman.mit.edu
 	* email accounts@mit.edu with name, website and URL redirect
 	* need to figure out if I can host outside of MIT or use other service

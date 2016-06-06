@@ -1,6 +1,6 @@
 ---
 layout: layout-post
-title:  sharing your travel journal as a gift
+title:  Gifting your travel journal
 summary: share your experience, not a keyring
 source: /app/posts/pursuit/travel-journal
 preview-img : /app/posts/pursuit/travel-journal/preview.jpg

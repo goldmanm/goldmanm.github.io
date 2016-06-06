@@ -35,7 +35,7 @@ So far my experiences have mostly focused around concepts of sustainability in r
 
 This site design was originally created by [Jan Zheng](janzheng.com) using [Jekyll](https://github.com/mojombo/jekyll) with the original code available [here](https://github.com/janzheng/janzheng.github.com). He utilized [bourbon.io](http://bourbon.io/) and [Neat](neat.bourbon.io) for front-end styling in SASS. I modified his template to add blog post categories, changed links, etc. to better share me with you.
 
-Complete licence info is available [here]( {{site.url}}/license.html ). [Message me](mailto:markgoldman@mit.edu) if you would like to use posts for commercial usage or flatter me with your adaptions and repostings.
+Complete licence info is available [here]( {{site.url}}/LICENSE.html ). [Message me](mailto:markgoldman@mit.edu) if you would like to use posts for commercial usage or flatter me with your adaptions and repostings.
 
 Cheers, 
 Mark

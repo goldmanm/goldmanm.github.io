@@ -70,8 +70,10 @@ could not get textile to work fully, but converting files to markdown worked fin
 			* guides - book (released to public domain by MTchemik)
 ## to do			
 
+* maybe change lab to admirations?
 * edit and add blog posts
 	* add richard west's results & find programming benefits for value capture post
+* add preview image to main text in layout file
 * strip down other parts of website
 	* tumblr data
 	* remove icon label from post design
@@ -84,7 +86,8 @@ could not get textile to work fully, but converting files to markdown worked fin
 	* email accounts@mit.edu with name, website and URL redirect
 	* need to figure out if I can host outside of MIT or use other service
 	* ask connie about website redirect?
-* color of insight in overall logo and items is green and orange respectively. Should be fixed. 
+
+* maybe look into the formatting program used by janzheng
 
 * resume
 * business card

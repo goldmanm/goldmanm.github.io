@@ -47,4 +47,4 @@ Notices:
 
 ## items not under these licences
 
-Images for the icons were sourced from [IconMonstr](http://iconmonstr.com/) and [Flaticon](http://www.flaticon.com) and [Wikimedia](http://www.wikimedia.com) and fall under their respective licenses and not the ones above. 
+Images for the icons were sourced from [IconMonstr](http://iconmonstr.com/) and [Flaticon](http://www.flaticon.com) and [Wikimedia](http://www.wikimedia.com), by user Vervexca, and fall under their respective licenses and not the ones above. This website is not endorsed by them. 

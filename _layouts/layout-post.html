@@ -31,7 +31,7 @@ layout: layout-site
               {% endif %}
 
               {% if page.category == 'insight' %}
-                {% include light-svg.html %}
+                <span class="icon icon--filter icon--beaker"></span>
               {% endif %}
 
               {% if page.category == 'pursuit' %}
@@ -41,6 +41,7 @@ layout: layout-site
               {% if page.category == 'guide' %}
                 {% include book-svg.html %}
               {% endif %}
+              
             <!-- </div> -->
           </div>
           {% endif %}
@@ -97,6 +98,14 @@ layout: layout-site
         </div>
         {% endif %}
 
+        {% if page.preview-img %}
+        <div class="article__head__image__container" >
+          <figure>
+            <img src="{{ page.preview-img }}" alt="preview image">
+          </figure>
+        </div>
+        {% endif %}
+
       </div>
 
 
@@ -145,19 +154,22 @@ layout: layout-site
 
         <div class="clear"></div>
 
-        <div class="article__comments">
+    <!--    <div class="article__comments">
 
           {% if page.comments == true %} 
             {% include disqus.html %}
           {% endif %} 
 
-        </div>
+        </div> -->
+    <!-- add cc license link -->
+This post is available under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" align="center" /></a>.        
+        
       </div>
+      
 
 
     </div>
-    <!-- add cc license link -->
-This post is available under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" align="center" /></a>.
+
     <!-- end article body -->
 
     <div class="clear"></div>

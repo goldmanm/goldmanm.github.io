@@ -184,6 +184,13 @@
 
   }
 
+  .article__head__image__container {
+    display: inline-block;
+    @include media($break-nav-thin-atleast) {@include shift(4);}
+    @extend %body-align; @extend %serif; color: $light-gray; 
+    padding-top: $base; padding-bottom: $base; 
+    @extend %style-antialiased;
+  }
 
   // end head
 

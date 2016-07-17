@@ -26,10 +26,9 @@ could not get textile to work fully, but converting files to markdown worked fin
 
 ### adding-removing blog category
 
-1. ~include name of category in `_layouts/layout-post.html` &  add file `_includes/<name>-svg.html (currently not functioning)
+1. ~include name of category in `_layouts/layout-post.html`,  add file `_includes/<name>-svg.html, & edit `_sass/_article.scss` (currently not functioning)
 1. if using a new icon, follow steps on replacing icon above including editing `_sass/_icons.scss`(determines size of icons), `_sass/_icongenerator.scss`
-1. edit `_sass/_article.scss` (not needed if not changing color layout)
-1. edit `_sass/_filterBtns.scss` to create the circle image desired, not sure if cvs or 
+1. edit `_sass/_filterBtns.scss` to create the circle image desired
 1. edit `_sass/_homepage.scss` controls text of icons
 1. edit `index.html`
 
@@ -50,7 +49,7 @@ could not get textile to work fully, but converting files to markdown worked fin
 
 ### jpegs
 
-* jpegs can be found on unsplash's website, but should be reduced in size to 400x100px
+* jpegs can be found on unsplash's website, but should be reduced in size to 400x1XXpx
 
 ##things to understand
 
@@ -73,26 +72,38 @@ could not get textile to work fully, but converting files to markdown worked fin
 			* guides - book (released to public domain by MTchemik)
 ## to do			
 
-* maybe change lab to admirations?
-* edit and add blog posts
-	* add richard west's results & find programming benefits for value capture post
-* add preview image to main text in layout file
+bugs
+
+* sage icon not appearing on posts
+* get tables working with mit email post (add space or line between columns on table css)
+* get posts to have proper logo in the corner
+* add resume
+
+features
+
+* add item for photo credits in YAML data & add it to the layout_post page
+* change pursuit to project and replace with paper airplane
 * strip down other parts of website
 	* tumblr data
 	* remove icon label from post design
-* fix header layout on mobile sites
-* add resume
 * add visual website timeline
-* move image citations to their own section in the formatting
-* fix the broken link to tools by adding a toolbox.html file (but it works on website)
+* better header layout on mobile sites
+* add border to figures in css?
+
+posts
+
+* find old version of value capture document (and figure out how to get footnotes to appear)
+* add science article to programming code text
+* re-read maeve and programming code text & commit them
+* edit and add blog posts
+	* add richard west's results & find programming benefits for value capture post
+
+
+
 * talk with is&t/student website office about transfering goldman.mit.edu
 	* email accounts@mit.edu with name, website and URL redirect
 	* need to figure out if I can host outside of MIT or use other service
 	* ask connie about website redirect?
-
-* maybe look into the formatting program used by janzheng
-
-* resume
 * business card
 
 #### text from janzheng's old blog posts

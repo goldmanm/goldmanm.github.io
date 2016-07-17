@@ -82,6 +82,10 @@ featured : false
               <div class="post__category post__category--{{post.category}}">
                 <div class="post__category__icon">
 
+                  {% if post.category == 'sage' %}
+                    <span class="icon icon--filter icon--dove"></span>
+                  {% endif %}
+
                   {% if post.category == 'lab' %}
                     <span class="icon icon--filter icon--beaker"></span>
                   {% endif %}

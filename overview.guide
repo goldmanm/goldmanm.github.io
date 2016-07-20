@@ -79,6 +79,7 @@ bugs
 * get tables working with mit email post (add space or line between columns on table css)
 * get posts to have proper logo in the corner
 * add resume
+* posts may not appear at first due to timing differences
 
 features
 

@@ -4,14 +4,17 @@ title: Reading a privacy policy statement
 summary: can be quite scary
 source: /app/posts/insight/privacy-policy
 preview-img: /app/posts/insight/privacy-policy/preview.jpeg
-preview-css : post-preview-std post__imgPreview--dark
+preview-css: post-preview-std post__imgPreview--dark
 category : insight
 tags : [Mint, finances, privacy, terms of service, delete account]
 published : false
+portfolio : false
 comments : false
 portfolio : no
 type : blog
 ---
+
+
 
 [Mint](https://www.mint.com/) is a service that gives people all their finances in one page, and has brought me convenience. Through the ~3 years of using their service I saw the increasing of advertisements and stagnation of new features. Some of its advertisements are terribly inaccurate. For example, I got a fee refund in my transactions section. Mint classified this as an 'fee', and posted an advertisement: "you just got a fee. you should apply for a fee-free [checking account](https://www.ted.com/watch/ted-institute/ted-ibm/marie-wallace-privacy-by-design)". Ironically, I already told Mint that I had the exact account they were advertising. These type of ads have happen quite often. I am not sure whether the programmers are incompetent or if they get more revenue for putting irrelevant ads.
 

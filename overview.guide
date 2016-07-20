@@ -23,6 +23,7 @@ could not get textile to work fully, but converting files to markdown worked fin
 	2. for icons on the blog, no border is needed, but follow steps in the adding blog category
 1. add the new name of icons to `_sass/_icons.scss`
 1. if you add another color layer, which starts with `$name`, go to `_sass/_colors.scss` and add that style
+1. update license agreement
 
 ### adding-removing blog category
 
@@ -30,7 +31,7 @@ could not get textile to work fully, but converting files to markdown worked fin
 1. if using a new icon, follow steps on replacing icon above including editing `_sass/_icons.scss`(determines size of icons), `_sass/_icongenerator.scss`
 1. edit `_sass/_filterBtns.scss` to create the circle image desired
 1. edit `_sass/_homepage.scss` controls text of icons
-1. edit `index.html`
+1. edit `index.html` for the upper icon item and the icon appearing in post categories
 
 (all these files were obtained with `grep -r idea .`) more changes may be necessary
 

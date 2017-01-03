@@ -59,11 +59,11 @@
       <!-- generate links and mark nav as active -->
       {% for item in navlist %}
       
-        {% if item.text == 'thoughts' || item.text == 'lab' || item.text == 'pursuit' || item.text == 'insight' || item.text == 'guide' %}
+        {% if item.text == 'thoughts' or item.text == 'lab' or item.text == 'pursuit' or item.text == 'insight' or item.text == 'guide' %}
 
         <a href="{{item.url}}">
           <div class="nav__item nav__blog 
-                      {% if url == item.url' %} active{% endif %}
+                      {% if url == item.url %} active{% endif %}
                       {% if page.type == 'blog' %} active{% endif %}" >
             <span  class="icon icon--blog"></span>
             <div class="nav__label"><span>{{item.text}}</span></div>

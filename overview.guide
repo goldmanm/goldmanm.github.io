@@ -10,7 +10,7 @@ could not get textile to work fully, but converting files to markdown worked fin
 
 ##how to serve website
 
-`jekyll serve`
+type `jekyll serve` in the terminal, and then copy the server address over to your web browser.
 
 ##how to change things in the website
 
